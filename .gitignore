@@ -47,3 +47,14 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Scala / sbt
+*.class
+*.tasty
+*.sjsir
+*.jar
+
+# Zenoti extension — compiled Scala.js output and packaged artifact
+artifacts/zenoti-extension/background.js
+artifacts/zenoti-extension/content.js
+artifacts/zenoti-extension.zip
