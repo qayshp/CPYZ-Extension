@@ -1,7 +1,0 @@
-[error] -- [E039] Reference Error: /home/runner/workspace/artifacts/zenoti-extension/scala/content/src/main/scala/Content.scala:283:52 
-[error] 283 |          document.removeEventListener("mouseup",   onUp)
-[error]     |                                                    ^^^^
-[error]     |     onUp is a forward reference extending over the definition of onUp
-[error]     |
-[error]     | longer explanation available when compiling with `-explain`
-[error] one error found
