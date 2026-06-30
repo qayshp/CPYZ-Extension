@@ -1,0 +1,30 @@
+[error] -- [E007] Type Mismatch Error: /home/runner/workspace/artifacts/zenoti-extension/scala/background/src/main/scala/Background.scala:74:23 
+[error] 74 |              .`catch`(onErr)
+[error]    |                       ^^^^^
+[error]    |Found:    (onErr : scala.scalajs.js.Function1[scala.scalajs.js.Any, scala.scalajs.js.Any])
+[error]    |Required: scala.scalajs.js.UndefOr[
+[error]    |  scala.scalajs.js.Function1[Any², scala.scalajs.js.Any |
+[error]    |    scala.scalajs.js.Thenable[scala.scalajs.js.Any]]
+[error]    |]
+[error]    |
+[error]    |where:    Any  is a trait in package scala.scalajs.js
+[error]    |          Any² is a class in package scala
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /home/runner/workspace/artifacts/zenoti-extension/scala/background/src/main/scala/Background.scala:117:84 
+[error] 117 |                sendResponse(js.Dynamic.literal(ok = false, error = err.toString)); f })
+[error]     |                                                                                    ^
+[error]     |Found:    (f : scala.scalajs.js.Function1[scala.scalajs.js.Any, Unit])
+[error]     |Required: scala.scalajs.js.UndefOr[
+[error]     |  scala.scalajs.js.Function1[Any², Unit | scala.scalajs.js.Thenable[Unit]]]
+[error]     |
+[error]     |where:    Any  is a trait in package scala.scalajs.js
+[error]     |          Any² is a class in package scala
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[warn] -- Warning: /home/runner/workspace/artifacts/zenoti-extension/scala/background/src/main/scala/Background.scala:72:10 
+[warn] 72 |          Chrome.ns.tabs
+[warn]    |          ^
+[warn]    |          Line is indented too far to the left, or a `}` is missing
+[warn] one warning found
+[error] two errors found

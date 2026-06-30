@@ -1,0 +1,25 @@
+[info] Fast optimizing /home/runner/workspace/artifacts/zenoti-extension/scala/background/target/scala-3.4.2/background-fastopt
+[debug] Linker: Compute reachability: 596262 us
+[debug] Linker: Assemble LinkedClasses: 38554 us
+[debug] Linker: 671279 us
+[debug] Optimizer: Batch mode: true
+[debug] Optimizer: Incremental part: 197675 us
+[debug] Optimizer: Elidable constructors: 2964 us
+[debug] Optimizer: Optimizing 3204 methods.
+[debug] Optimizer: Optimizer part: 976768 us
+[debug] Optimizer: 1191638 us
+[debug] Refiner: Compute reachability: 106276 us
+[debug] Refiner: Assemble LinkedClasses: 6696 us
+[debug] Refiner: 115207 us
+[debug] Module Splitter: Calculate Dependency Info: 1627 us
+[debug] Module Splitter: Analyze Modules: 2771 us
+[debug] Module Splitter: Assemble Modules: 5356 us
+[debug] Module Splitter: 11366 us
+[debug] Emitter: Generate Classes: 726970 us
+[debug] Emitter: Write trees: 45490 us
+[debug] Emitter: Class tree cache stats: reused: 0 -- invalidated: 363
+[debug] Emitter: Method tree cache stats: reused: 0 -- invalidated: 1434
+[debug] Emitter: Post transforms: total: 2185 -- nested: 36 -- nested avoided: 213
+[debug] Emitter: 805768 us
+[debug] BasicBackend: Write result: 76168 us
+[debug] BasicBackend: total modules: 1; re-written: 1
