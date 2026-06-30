@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "bDYC0I33biM9iXodA1FVw"
+uri = "file://artifacts/zenoti-extension.zip"
+type = "unspecified"
+title = "Zenoti Session Inspector (Chrome Extension)"
