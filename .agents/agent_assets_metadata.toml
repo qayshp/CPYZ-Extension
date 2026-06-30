@@ -6,3 +6,9 @@ id = "bDYC0I33biM9iXodA1FVw"
 uri = "file://artifacts/zenoti-extension.zip"
 type = "unspecified"
 title = "Zenoti Session Inspector — Scala.js build"
+
+[[outputs]]
+id = "Htt8l3R7tiFoUTpgVV8MH"
+uri = "file://artifacts/zenoti-extension/README.md"
+type = "text"
+title = "README.md — Zenoti Session Inspector"
